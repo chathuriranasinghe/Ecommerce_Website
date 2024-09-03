@@ -141,16 +141,3 @@ align-items: center;
 }
 
 /* Slider Outer */
-
-/*Product Outer */
-.product-container{
-    width: 100%;
-    height: 500px;
-}
-
-.product-inner{
-    width: 80%;
-    height: 400px;
-}
-/*Product Outer */
-
