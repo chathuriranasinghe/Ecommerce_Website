@@ -90,7 +90,6 @@ align-items: center;
     cursor: pointer;
 }
 
-
 .order-button:hover{
     background-color: white;
     color: black;
@@ -141,3 +140,46 @@ align-items: center;
 }
 
 /* Slider Outer */
+
+/* Product Outer */
+.product-container{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-inner{
+    width: 80%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.product{
+    width: 32%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-image-context{
+    flex: 1;
+    background-image: url("https://img.freepik.com/free-photo/trendy-top-design-mockup-presented-wooden-hanger_460848-14027.jpg?ga=GA1.2.907944605.1725134259&semt=ais_hybrid");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.product-details-context{
+    height: 100px;
+}
+
+.name-rate-container, .price-container{
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: space-between;
+}
+
+
+/* Product Outer */
