@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -6,26 +7,25 @@
 .header-wrapper{
     width: 100%;
     height: 100px;
-    
     display: flex;
     justify-content: center;
+    border-bottom: 1px dotted rgba(44, 62, 80, 1.0);
+    margin-bottom: 20px;
 }
 .header-inner{
     width: 70%;
-    
     height: 100%;
     display: flex;
 }
 .logo-wrapper{
     width: 300px;
     height: 100%;
-    
     display: flex;
     align-items: center;
 }
 .nav-wrapper{
 flex: 1;
-
+justify-content: flex-end;
 display: flex;
 align-items: center;
 }
@@ -34,8 +34,123 @@ align-items: center;
     display: flex;
     
 }
-.nav-wrapper>ul>li{
+.nav-wrapper> ul> li{
     margin-right: 20px;
     font-size: 20px;
+    font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.nav-wrapper> ul> li:last-child{
+    margin: 0;
+}
+.nav-wrapper> ul> li:hover{
+    cursor: pointer;
+    color: grey;
 }
 /*header outer */
+
+/* Slider Outer */
+.slider-container{
+    height: 800px;
+    display: flex;
+}
+.slider-inner{
+    flex:1;
+}
+.left-slider{
+    display: flex;
+    align-items: center;
+    background-image: url('https://img.freepik.com/premium-photo/chic-confident-womans-shopping-adventure_687636-839.jpg?w=740');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.left-side-content-wrapper{
+    padding: 20px;
+    position: relative;
+    z-index: 2;
+}
+.left-side-content-wrapper> h1{
+    font-size: 45px;
+    font-family: "Matemasie", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+.left-side-content-wrapper> h4{
+    color: white;
+}
+.order-button{
+    background: none;
+    margin-top: 50px;
+    border: 1px solid white;
+    padding: 9px 16px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.order-button:hover{
+    background-color: white;
+    color: black;
+}
+
+.shadow{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(44, 62, 80,0.6);
+    position: absolute;
+    /* opacity: 0.2; */
+}
+
+.right-slider{
+    display: flex;
+    flex-direction: column;
+}
+.slider-right-wrapper{
+    flex: 1;
+    display: flex;
+}
+.sldier-right-slot{
+    flex:1;
+    background-image: url('https://img.freepik.com/free-photo/adult-woman-posing-with-shopping-bags_23-2148660623.jpg?t=st=1724690532~exp=1724694132~hmac=68c129419dcbda7d240c5a3e774097ada214a4ea5d0012f532ad4d266475af61&w=740');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.data-wrapper{
+    width: 90%;
+    height: 90%;
+    background-color: rgba(44, 62, 80,0.9);
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    z-index: 2;
+    display: none;
+}
+.sldier-right-slot:hover .data-wrapper{
+    display: flex!important;
+}
+
+/* Slider Outer */
+
+/*Product Outer */
+.product-container{
+    width: 100%;
+    height: 500px;
+}
+
+.product-inner{
+    width: 80%;
+    height: 400px;
+}
+/*Product Outer */
+
