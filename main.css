@@ -162,15 +162,41 @@ align-items: center;
     flex-direction: column;
 }
 
-.product-image-context{
+.product-image-context1{
     flex: 1;
     background-image: url("https://img.freepik.com/free-photo/trendy-top-design-mockup-presented-wooden-hanger_460848-14027.jpg?ga=GA1.2.907944605.1725134259&semt=ais_hybrid");
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.product-image-context2{
+    flex: 1;
+    background-image: url("https://img.freepik.com/free-photo/fall-studio-shot-two-models-with-blond-wavy-hairstyle-wool-straw-hat-wearing-striped-poncho_273443-3793.jpg?ga=GA1.1.907944605.1725134259&semt=ais_hybrid");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.product-image-context3{
+    flex: 1;
+    background-image: url("https://img.freepik.com/free-photo/flat-lay-baby-clothes-with-photo-camera_23-2148251497.jpg?ga=GA1.1.907944605.1725134259&semt=ais_hybrid");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.product-image-context:hover .hidden-items-context{
+    bottom: 10px;
 }
 
 .product-details-context{
     height: 100px;
+    display: flex;
+    flex-direction: column;
 }
 
 .name-rate-container, .price-container{
@@ -181,5 +207,39 @@ align-items: center;
     justify-content: space-between;
 }
 
+.hidden-items-context{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -65px;
+}
+
+.hidden-items-inner{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hidden-item{
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
 
 /* Product Outer */
+
+/* About Outer */
+.about-container{
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+}
+/* About Outer */
