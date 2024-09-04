@@ -290,3 +290,80 @@ align-items: center;
 }
 
 /* About Outer */
+
+/* Social Outer */
+.social-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 30px 0px;
+}
+.social-inner{
+    width: 75%;
+    height: auto;
+}
+.social-slider{
+    width: 100%;
+    height: 150px;
+    margin-top: 20px;
+    display: flex;
+}
+.social-element{
+    flex: 1;
+    background-image: url("https://img.freepik.com/free-photo/young-smart-woman-cashmere-sweater-points-place-text-isolated-charming-girl-cap-poses-beige-background_197531-29364.jpg?ga=GA1.1.907944605.1725134259&semt=ais_hybrid");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.social-shadow{
+    background-color: rgba(44, 62, 80,0.8);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.social-element:hover .social-shadow{
+    display: block;
+}
+/* Social Outer */
+
+/*Footer */
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #2a2a2a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+}
+.footer-inner{
+    width: 75%;
+    height: auto;
+    display: flex;
+}
+.footer-slot{
+    flex: 1;
+}
+.footer-slot h3{
+    color: white;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.footer-slot ul{
+    list-style: none;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.footer-slot ul li{
+    margin-bottom: 8px;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}
+/*Footer */
